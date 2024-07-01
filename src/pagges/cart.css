@@ -1,0 +1,25 @@
+.cartwrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+.cartcard{
+    border-radius: 5px ;
+    background-color: white;
+    padding: 20px;
+
+    width: 70vw;
+    height: 10rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cartimge{
+   height: 10rem; 
+   width: 5rem;
+}

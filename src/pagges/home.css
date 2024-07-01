@@ -1,0 +1,50 @@
+.productrap{
+    
+    
+    display: flex;
+    background-color: gold;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: auto;
+    margin-top: none; */
+
+}
+.card{
+    width: 25rem;
+    height: 28rem;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #764abc;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.card:hover{
+    transition: all 0.5s ease-in-out;
+
+    scale: 1;
+}
+.pimg{
+    height: 7rem;width: 7rem;
+    margin-bottom: 20px;
+
+
+}
+.btn{
+    margin-top: 20px;
+    cursor: pointer;
+    /* transition: all 0.3s ease-in-out; */
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:  #764abc;;
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+    border: none;
+    color: white;
+
+}
